@@ -2,6 +2,7 @@ import json
 import requests
 import time
 import yaml
+import subprocess
 
 with open("config.yml", "r") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
@@ -150,6 +151,9 @@ def retrieve_data(api_url_base, sim_id, data_file):
                 response.status_code, response.content))
             return None
 
+def run_local(profile_location, output_location, iterations):
+    local_binary = config["localBuild"]
+    process = subprocess.run([local_binary,profile_location,f"json={output_location}",f"iterations={iterations}"], check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
 
 def raidbots(api_key, profile_location, simc_build, output_location, report_name, iterations):
     api_url_base = config["raidbots"]["apiUrlBase"]

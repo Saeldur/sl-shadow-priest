@@ -8,7 +8,7 @@ import os
 
 from os import listdir
 from internal.weights import find_weights
-from internal.api import raidbots
+from internal.api import raidbots, run_local
 from internal.sim_parser import parse_json
 from internal.sim_parser import get_timestamp
 from internal.analyze import analyze
@@ -41,7 +41,7 @@ def run_sims(args, iterations, talent, covenant):
 
     for profile in profiles:
         profile_name = re.search(
-            '((hm|lm|pw).+?(?=.simc)|dungeons.simc)', profile).group()
+            '((hm|lm|pw|hv).+?(?=.simc)|dungeons.simc)', profile).group()
         count = count + 1
         if not args.dungeons:
             weight = find_weights(config["compositeWeights"]).get(profile_name)
@@ -56,8 +56,11 @@ def run_sims(args, iterations, talent, covenant):
                 get_simc_dir(talent, covenant, 'profiles') + profile
             # prefix the profile name with the base file name
             profile_name_with_dir = "{0}{1}".format(args.dir, profile_name)
-            raidbots(api_key, profile_location,
+            if not config["simcBuild"] == "local":
+                raidbots(api_key, profile_location,
                      config["simcBuild"], output_location, profile_name_with_dir, iterations)
+            else:
+                run_local(profile_location,output_location,iterations)
         elif weight == 0:
             print("{0} has a weight of 0. Skipping file.".format(output_name))
         else:
