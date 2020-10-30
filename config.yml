@@ -21,7 +21,7 @@ sims:
     steps:
       - DPS
     files:
-      - shadowflametest.simc
+      - shadowflametest2.simc
   conduits:
     builds: true
     weights: false
