@@ -1,0 +1,35 @@
+# Single - hv-as
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Venthyr-Draven-Built_for_War|5274|7.62%|
+|Venthyr-Nadjia-Dauntless_Duelist|5244|7.01%|
+|Kyrian-Pelagos-Let_Go_of_the_Past|5213|6.38%|
+|Kyrian-Kleia-Pointed_Courage|5206|6.24%|
+|Venthyr-Theotar-Soothing_Shade|5204|6.19%|
+|Venthyr-Nadjia-Thrill_Seeker|5198|6.06%|
+|Necrolord-Emeni-Lead_by_Example|5169|5.49%|
+|Necrolord-Bonesmith-Heirmirs_Arsenal_Marrowed_Gemstone|5158|5.25%|
+|Venthyr-Theotar-Wasteland_Propriety|5143|4.96%|
+|Night_Fae-Niya-Niyas_Tools_Burrs|5134|4.76%|
+|Venthyr-Nadjia-Exacting_Preparation|5109|4.25%|
+|Night_Fae-Dreamweaver-Field_of_Blossoms|5097|4.02%|
+|Venthyr_Covenant_Only|5092|3.91%|
+|Venthyr-Theotar-Refined_Palate|5091|3.88%|
+|Necrolord-Marileth-Volatile_Solvent_Mastery|5080|3.67%|
+|Kyrian-Pelagos-Combat_Meditation|5074|3.55%|
+|Necrolord-Marileth-Volatile_Solvent_Crit|5055|3.16%|
+|Night_Fae-Korayn-Wild_Hunt_Tactics|5054|3.12%|
+|Necrolord-Marileth-Plagueys_Preemptive_Strike|5048|3.00%|
+|Necrolord-Emeni-Gnashing_Chompers|5018|2.39%|
+|Necrolord-Marileth-Volatile_Solvent_Intellect|5018|2.39%|
+|Necrolord_Covenant_Only|5016|2.35%|
+|Necrolord-Bonesmith-Serrated_Spaulders|5015|2.34%|
+|Kyrian-Forgelite-Hammer_of_Genesis|4994|1.92%|
+|Kyrian-Forgelite-Brons_Call_to_Action|4991|1.85%|
+|Kyrian_Covenant_Only|4983|1.69%|
+|Night_Fae-Dreamweaver-Social_Butterfly|4976|1.54%|
+|Night_Fae-Niya-Grove_Invigoration|4938|0.77%|
+|Night_Fae-Korayn-First_Strike|4931|0.63%|
+|Night_Fae-Niya-Niyas_Tools_Poison|4907|0.13%|
+|Night_Fae_Covenant_Only|4906|0.11%|
+|Base|4900|0.00%|

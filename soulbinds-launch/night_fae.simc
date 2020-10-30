@@ -3,12 +3,13 @@ level=60
 role=spell
 position=back
 spec=shadow
+talents=${talents}
 covenant=night_fae
 
 default_actions=1
 
-# Shadowflame Prism
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+# Eternal Call to the Void
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 neck=charm_of_eternal_winter,id=183040,ilevel=226
 shoulder=shawl_of_the_penitent,id=183020,ilevel=233
 back=crest_of_the_legionnaire_general,id=183032,ilevel=233
@@ -20,32 +21,19 @@ legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
 feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
 finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
 finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
-trinket1=dreadfire_vessel,id=184030,ilevel=233
-trinket2=macabre_sheet_music,id=184024,ilevel=226
-main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
-
-# Top 3 conduits for Night Fae
-# - Rabid Shadows - 114
-# - Fae Fermata - 101
-# - Mind Devourer - 113
+trinket1=glyph_of_assimilation,id=184021,ilevel=226
+trinket2=cabalists_hymnal,id=184028,ilevel=233
+main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance
 
 # Niya
-# 3 conduit setup
-# Niya's Tools: Poison - 320660
-profileset."Niya-NTP-RS"+=soulbind=niya,114:1/320660
-
-# 2 conduit setup
-# Niya's Tools: Burrs - 320659
-profileset."Niya-NTB-RS"+=soulbind=niya,114:1/320659
+# 1 conduit setup
+# Grove Invigoration - 322721
+profileset."Niya-GI-${conduits.first.name}"+=soulbind=niya,${conduits.first.id}:6/322721
 
 # Dreamweaver
-# 3 conduit setup
-# Field of Blossoms - 319191
-profileset."Dreamweaver-FoB-RS_FF"+=soulbind=dreamweaver,114:1/101:1/319191
-profileset."Dreamweaver-FoB-RS_MD"+=soulbind=dreamweaver,114:1/113:1/319191
-
 # 2 conduit setup
-# Field of Blossoms - 319191
+profileset."Dreamweaver-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/${conduits.second.id}:6
+
+# 1 conduit setup
 # Social Butterfly - 319210
-profileset."Dreamweaver-FoB_SB-RS"+=soulbind=dreamweaver,114:1/319191/319210
-profileset."Dreamweaver-FoB_SB-RS"+=soulbind=dreamweaver,114:1/319191/319210
+profileset."Dreamweaver-SB-${conduits.first.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/319210

@@ -1,0 +1,35 @@
+# Single - am
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Venthyr-Draven-Built_for_War|5177|8.04%|
+|Venthyr-Nadjia-Dauntless_Duelist|5149|7.44%|
+|Kyrian-Pelagos-Let_Go_of_the_Past|5139|7.25%|
+|Kyrian-Kleia-Pointed_Courage|5119|6.82%|
+|Venthyr-Theotar-Soothing_Shade|5110|6.63%|
+|Venthyr-Nadjia-Thrill_Seeker|5103|6.49%|
+|Necrolord-Emeni-Lead_by_Example|5068|5.77%|
+|Venthyr-Theotar-Wasteland_Propriety|5057|5.53%|
+|Necrolord-Bonesmith-Heirmirs_Arsenal_Marrowed_Gemstone|5046|5.31%|
+|Night_Fae-Niya-Niyas_Tools_Burrs|5031|4.99%|
+|Venthyr-Nadjia-Exacting_Preparation|5019|4.73%|
+|Kyrian-Pelagos-Combat_Meditation|5001|4.36%|
+|Venthyr_Covenant_Only|5000|4.34%|
+|Venthyr-Theotar-Refined_Palate|4999|4.32%|
+|Night_Fae-Dreamweaver-Field_of_Blossoms|4993|4.20%|
+|Necrolord-Marileth-Volatile_Solvent_Mastery|4973|3.78%|
+|Necrolord-Marileth-Volatile_Solvent_Crit|4946|3.21%|
+|Night_Fae-Korayn-Wild_Hunt_Tactics|4945|3.18%|
+|Necrolord-Marileth-Plagueys_Preemptive_Strike|4943|3.15%|
+|Kyrian-Forgelite-Hammer_of_Genesis|4922|2.71%|
+|Kyrian-Forgelite-Brons_Call_to_Action|4921|2.69%|
+|Necrolord-Marileth-Volatile_Solvent_Intellect|4912|2.50%|
+|Necrolord-Bonesmith-Serrated_Spaulders|4912|2.49%|
+|Necrolord-Emeni-Gnashing_Chompers|4910|2.47%|
+|Necrolord_Covenant_Only|4909|2.43%|
+|Kyrian_Covenant_Only|4908|2.43%|
+|Night_Fae-Dreamweaver-Social_Butterfly|4872|1.66%|
+|Night_Fae-Niya-Grove_Invigoration|4835|0.91%|
+|Night_Fae-Korayn-First_Strike|4829|0.77%|
+|Night_Fae_Covenant_Only|4805|0.26%|
+|Night_Fae-Niya-Niyas_Tools_Poison|4804|0.24%|
+|Base|4792|0.00%|

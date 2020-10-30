@@ -1,10 +1,48 @@
 builds:
   am:
-    composite: 1121121 # FotM_Mis_AS_MB_AM
-    single: 1111121 # FotM_ToF_AS_MB_AM
-  hv:
-    composite: 1121122 # FotM_Mis_AS_MB_HV
-    single: 1111122 # FotM_ToF_AS_MB_HV
+    composite: 1111131 # FotM_ToF_AS_VT_AM
+    dungeons: 1131121 # FotM_SN_AS_MB_AM
+    single: 1111131 # FotM_ToF_AS_VT_AM
+    conduits:
+      first: 
+        id: "107"
+        name: HA
+      second: 
+        id: "113"
+        name: MD
+  hv-as:
+    composite: 1111132 # FotM_ToF_AS_VT_HV
+    dungeons: 1131122 # FotM_SN_AS_MB_HV
+    single: 1111132 # FotM_ToF_AS_VT_HV
+    conduits:
+      first: 
+        id: "115"
+        name: DE
+      second:
+        id: "107"
+        name: HA
+  hv-pl:
+    composite: 1111232 # FotM_ToF_PL_VT_HV
+    dungeons: 1131222 # FotM_SN_PL_MB_HV
+    single: 1111232 # FotM_ToF_PL_VT_HV
+    conduits:
+      first:
+        id: "115"
+        name: DE
+      second:
+        id: "113"
+        name: MD
+  stm:
+    composite: 1111133 # FotM_ToF_AS_VT_STM
+    dungeons: 1131123 # FotM_SN_AS_MB_STM
+    single: 1111133 # FotM_ToF_AS_VT_STM
+    conduits:
+      first:
+        id: "107"
+        name: HA
+      second:
+        id: "113"
+        name: MD
 covenants:
   - kyrian
   - night_fae
@@ -21,7 +59,21 @@ sims:
     steps:
       - DPS
     files:
-      - shadowflametest2.simc
+      - apl.simc
+  conduit-combos:
+    builds: true
+    weights: false
+    covenant:
+      lookup: true
+      files: true
+    lookupType: none
+    steps:
+      - DPS
+    files: 
+      - kyrian.simc
+      - necrolord.simc
+      - night_fae.simc
+      - venthyr.simc
   conduits:
     builds: true
     weights: false
@@ -109,6 +161,21 @@ sims:
       - DPS
     files:
       - legendaries.simc
+  legendary-items:
+    builds: true
+    weights: false
+    covenant: 
+      lookup: true
+      files: false
+    lookupType: spell
+    steps:
+      - 190
+      - 210
+      - 225
+      - 235
+    files:
+      - shadow.simc
+      - generic.simc
   racials:
     builds: true
     weights: false
@@ -120,13 +187,24 @@ sims:
       - DPS
     files:
       - racials.simc
+  soulbind-traits:
+    builds: true
+    weights: false
+    covenant:
+      lookup: false
+      files: false
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - traits.simc
   soulbinds:
     builds: true
     weights: false
     covenant:
       lookup: true
       files: true
-    lookupType: spell
+    lookupType: none
     steps:
       - DPS
     files:
@@ -141,7 +219,7 @@ sims:
     covenant:
       lookup: true
       files: true
-    lookupType: spell
+    lookupType: none
     steps:
       - DPS
     files:
@@ -166,12 +244,13 @@ sims:
     covenant:
       lookup: false
       files: false
-    lookupType: spell
+    lookupType: none
     steps:
       - DPS
     files:
-      - AM_sf.simc
-      - AM_ecctv.simc
+      - AM.simc
+      - HV.simc
+      - STM.simc
   trinkets:
     builds: true
     weights: false
@@ -182,10 +261,14 @@ sims:
     steps:
       - 155
       - 158
+      - 164
       - 165
       - 170
+      - 171
       - 175
+      - 177
       - 183
+      - 184
       - 187
       - 190
       - 194
@@ -221,9 +304,14 @@ compositeWeights: weightsCastleNathria
 singleTargetWeights: weightsSingle
 simcBuild: local
 localBuild: ./simc.exe
+singleTargetProfiles:
+  - pw_na_1
+  - lm_na_1
+  - hm_na_1
+simcBuild: nightly
 defaultIterations: 10000
 raidbots:
-  apiUrlBase: https://mimiron.raidbots.com
+  apiUrlBase: https://www.raidbots.com
   numOfRetries: 2
   retryInterval: 20
 analyze:

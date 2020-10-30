@@ -3,6 +3,7 @@ level=60
 role=spell
 position=back
 spec=shadow
+talents=${talents}
 
 head=confidants_favored_cap,id=183021,ilevel=226
 neck=charm_of_eternal_winter,id=183040,ilevel=226
@@ -16,12 +17,14 @@ legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
 feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
 finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
 finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
-trinket1=dreadfire_vessel,id=184030,ilevel=233
-trinket2=macabre_sheet_music,id=184024,ilevel=226
-main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
+trinket1=glyph_of_assimilation,id=184021,ilevel=226
+trinket2=cabalists_hymnal,id=184028,ilevel=233
+main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance
 
+# dont use arcane pulse...ever
 profileset."Nightborne"+=race=nightborne
 
+# use on CD when adds are active
 profileset."Lightforged_Draenei"+=race=lightforgeddraenei
 
 profileset."Void_Elf"+=race=voidelf
@@ -61,12 +64,16 @@ profileset."Tauren"+=race=tauren
 
 profileset."Goblin"+=race=goblin
 
+# sync berserk with PI
 profileset."Troll"+=race=troll
 
+# precombat arcane torrent
 profileset."Blood_Elf"+=race=blood_elf
 
+# sync fireblood with PI
 profileset."Dark_Iron_Dwarf"+=race=dark_iron_dwarf
 
+# sync ancestral call with PI
 profileset."Maghar_Orc"+=race=maghar_orc
 
 profileset."Kul_Tiran"+=race=kul_tiran
@@ -80,6 +87,7 @@ profileset."Zandalari_Troll_Paku"+=zandalari_loa=paku
 profileset."Zandalari_Troll_Bwonsamdi"+=race=zandalari_troll
 profileset."Zandalari_Troll_Bwonsamdi"+=zandalari_loa=bwonsamdi
 
+# currently disabled
 profileset."Vulpera"+=race=vulpera
 
 profileset."Mechagnome"+=race=mechagnome

@@ -1,0 +1,37 @@
+# Dungeons - hv-as
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Necrolord_9|6485|21.65%|
+|Necrolord_10|6477|21.50%|
+|Necrolord_6|6373|19.55%|
+|Necrolord_13|6352|19.15%|
+|Necrolord_5|6352|19.15%|
+|Necrolord_7|6324|18.63%|
+|Necrolord_8|6321|18.57%|
+|Kyrian_1|6317|18.50%|
+|Necrolord_2|6315|18.46%|
+|Venthyr_1|6307|18.31%|
+|Necrolord_1|6304|18.25%|
+|Necrolord_11|6268|17.58%|
+|Necrolord_4|6268|17.58%|
+|Necrolord_3|6262|17.46%|
+|Venthyr_4|6252|17.28%|
+|Venthyr_8|6245|17.15%|
+|Kyrian_5|6232|16.90%|
+|Venthyr_5|6225|16.77%|
+|Venthyr_2|6216|16.60%|
+|Necrolord_14|6205|16.39%|
+|Venthyr_3|6181|15.94%|
+|Necrolord_12|6152|15.40%|
+|Venthyr_6|6143|15.23%|
+|Venthyr_7|6135|15.08%|
+|Kyrian_3|6083|14.11%|
+|Night_Fae_6|5999|12.53%|
+|Night_Fae_3|5954|11.69%|
+|Kyrian_4|5943|11.48%|
+|Kyrian_2|5935|11.33%|
+|Night_Fae_4|5923|11.10%|
+|Night_Fae_5|5813|9.04%|
+|Night_Fae_2|5773|8.29%|
+|Night_Fae_1|5704|7.00%|
+|Base|5331|0.00%|

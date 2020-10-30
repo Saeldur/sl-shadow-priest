@@ -1,0 +1,33 @@
+# Composite - hv-as
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Goblin|5304|1.57%|
+|Gnome|5304|1.56%|
+|Night_Elf_Haste|5297|1.43%|
+|Draenei|5288|1.27%|
+|Human|5286|1.23%|
+|Dark_Iron_Dwarf|5283|1.17%|
+|Panda_Feast|5279|1.09%|
+|Void_Elf|5278|1.08%|
+|Nightborne|5278|1.07%|
+|Blood_Elf|5276|1.03%|
+|Troll|5275|1.02%|
+|Night_Elf_Crit|5274|1.00%|
+|Lightforged_Draenei|5273|0.97%|
+|Kul_Tiran|5268|0.88%|
+|Zandalari_Troll_Paku|5266|0.85%|
+|Worgen|5262|0.77%|
+|Mechagnome|5261|0.74%|
+|Maghar_Orc|5259|0.72%|
+|Panda_Haste|5259|0.70%|
+|Undead|5258|0.69%|
+|Zandalari_Troll_Bwonsamdi|5258|0.69%|
+|Zandalari_Troll_Kimbul|5256|0.66%|
+|Panda_Crit|5248|0.50%|
+|Dwarf|5244|0.42%|
+|Panda_Mastery|5244|0.42%|
+|Tauren|5242|0.38%|
+|Panda_Vers|5237|0.28%|
+|Vulpera|5224|0.04%|
+|Base|5222|0.00%|
+|Panda_Smothered_Shank|4573|-12.44%|

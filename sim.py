@@ -1,6 +1,5 @@
 import argparse
 import yaml
-import api_secrets
 import sys
 import platform
 import re
@@ -32,8 +31,63 @@ def get_simc_dir(talent, covenant, folder_name):
         return "{0}/".format(folder_name)
 
 
+def get_path(simcBuildVersion):
+    try:
+        import local_secrets
+        pathDict = local_secrets.simc_path
+        if platform.system() == 'Darwin' or platform.system() == 'Linux':
+            return handle_path_darwin(pathDict[simcBuildVersion])
+        else:
+            return handle_path_win(pathDict[simcBuildVersion])
+    except:
+        if platform.system() == 'Darwin' or platform.system() == 'Linux':
+            return "simc"
+        else:
+            return "simc.exe"
+
+
+def handle_path_darwin(path):
+    if path.endswith("/"):
+        return "{0}simc".format(path)
+    else:
+        return "{0}/simc".format(path)
+
+
+def handle_path_win(path):
+    if(path.endswith("\\")):
+        return "{0}simc.exe".format(path)
+    else:
+        return "{0}\\simc.exe".format(path)
+
+
+def get_api_key(args, simcBuildVersion):
+    if args.local:
+        executable = get_path(simcBuildVersion)
+        
+        if is_executable(executable):
+            return executable
+        else:
+            print("{0} not a valid executable please check your local_secrets.py or your path".format(executable))
+            sys.exit()
+    else :
+        try:
+            import api_secrets
+            return api_secrets.api_key
+        except ModuleNotFoundError:
+            print('Please create api_secrets.py file like mentioned in the Readme')
+            sys.exit()
+
+def is_executable(path):
+    return os.path.isfile(path) and os.access(path, os.X_OK)
+
 def run_sims(args, iterations, talent, covenant):
-    api_key = api_secrets.api_key
+    if args.local:
+        from internal.simc import raidbots
+    else:
+        from internal.api import raidbots
+
+    api_key = get_api_key(args, config["simcBuild"])
+    
     print("Running sims on {0} in {1}".format(config["simcBuild"], args.dir))
     existing = listdir(args.dir + get_simc_dir(talent, covenant, 'output'))
     profiles = listdir(args.dir + get_simc_dir(talent, covenant, 'profiles'))
@@ -62,9 +116,9 @@ def run_sims(args, iterations, talent, covenant):
             else:
                 run_local(profile_location,output_location,iterations)
         elif weight == 0:
-            print("{0} has a weight of 0. Skipping file.".format(output_name))
+            print("-- {0} has a weight of 0. Skipping file.".format(output_name))
         else:
-            print("{0} already exists. Skipping file.".format(output_name))
+            print("-- {0} already exists. Skipping file.".format(output_name))
 
 
 def convert_to_csv(args, weights, talent, covenant):
@@ -90,6 +144,8 @@ def main():
         '--talents', help='indicate talent build for output.', choices=config["builds"].keys())
     parser.add_argument(
         '--covenant', help='indicate covenant build for output.', choices=config["covenants"])
+    parser.add_argument(
+        '--local', help='indicate if the simulation should run local.', action='store_true')
     args = parser.parse_args()
 
     sys.path.insert(0, args.dir)

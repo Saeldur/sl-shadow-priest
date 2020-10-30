@@ -1,0 +1,35 @@
+# Dungeons - hv-pl
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Necrolord-Emeni-Lead_by_Example|5763|8.94%|
+|Necrolord-Bonesmith-Heirmirs_Arsenal_Marrowed_Gemstone|5735|8.41%|
+|Necrolord-Marileth-Plagueys_Preemptive_Strike|5721|8.15%|
+|Kyrian-Forgelite-Hammer_of_Genesis|5659|6.98%|
+|Venthyr-Draven-Built_for_War|5653|6.86%|
+|Necrolord-Emeni-Gnashing_Chompers|5651|6.82%|
+|Necrolord-Marileth-Volatile_Solvent_Mastery|5607|5.99%|
+|Necrolord-Marileth-Volatile_Solvent_Crit|5595|5.77%|
+|Venthyr-Nadjia-Thrill_Seeker|5591|5.69%|
+|Necrolord-Marileth-Volatile_Solvent_Intellect|5561|5.12%|
+|Necrolord_Covenant_Only|5556|5.03%|
+|Necrolord-Bonesmith-Serrated_Spaulders|5554|4.99%|
+|Venthyr-Theotar-Soothing_Shade|5554|4.99%|
+|Kyrian-Pelagos-Let_Go_of_the_Past|5544|4.80%|
+|Kyrian-Kleia-Pointed_Courage|5534|4.61%|
+|Venthyr-Theotar-Wasteland_Propriety|5508|4.12%|
+|Venthyr-Nadjia-Exacting_Preparation|5471|3.42%|
+|Venthyr_Covenant_Only|5447|2.97%|
+|Venthyr-Nadjia-Dauntless_Duelist|5446|2.95%|
+|Venthyr-Theotar-Refined_Palate|5441|2.85%|
+|Kyrian-Pelagos-Combat_Meditation|5407|2.21%|
+|Kyrian-Forgelite-Brons_Call_to_Action|5305|0.28%|
+|Kyrian_Covenant_Only|5303|0.25%|
+|Base|5290|0.00%|
+|Night_Fae-Korayn-First_Strike|5232|-1.10%|
+|Night_Fae-Dreamweaver-Field_of_Blossoms|5218|-1.36%|
+|Night_Fae-Niya-Niyas_Tools_Burrs|5148|-2.68%|
+|Night_Fae-Korayn-Wild_Hunt_Tactics|5107|-3.46%|
+|Night_Fae-Dreamweaver-Social_Butterfly|5040|-4.73%|
+|Night_Fae-Niya-Grove_Invigoration|4998|-5.52%|
+|Night_Fae_Covenant_Only|4969|-6.07%|
+|Night_Fae-Niya-Niyas_Tools_Poison|4966|-6.12%|

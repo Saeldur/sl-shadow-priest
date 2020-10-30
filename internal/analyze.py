@@ -162,7 +162,10 @@ def lookup_id(name, directory):
         return lookup_spell_id(name, directory)
     elif lookup_type == "item":
         return lookup_item_id(name, directory)
+    elif lookup_type == "none":
+        return None
     else:
+        print("Could not find id for {0}".format(name))
         return None
 
 
@@ -171,6 +174,7 @@ def lookup_spell_id(spell_name, directory):
     if ids:
         return ids.get(spell_name)
     else:
+        print("Could not find spell id for {0}".format(spell_name))
         return None
 
 
@@ -219,7 +223,7 @@ def build_json(sim_type, talent_string, results, directory, timestamp, covenant_
         chart_data["simulated_steps"] = steps
         # iterate over results and build a list of unique profiles
         # trim off everything after last _
-        for key, value in results.items():
+        for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             unique_key = '_'.join(key.split('_')[:-1])
             if unique_key not in unique_profiles and unique_key != "Base" and unique_key != "":
                 unique_profiles.append(unique_key)
