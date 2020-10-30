@@ -1,0 +1,42 @@
+iterations=50000
+single_actor_batch=1
+max_time=60
+desired_targets="10"
+optimal_raid=0
+
+priest="Base"
+level=60
+role=spell
+position=back
+spec=shadow
+covenant=night_fae
+talents=2133123
+
+
+# Baseline Conduits - Top 3
+# - Mind Devourer - 113
+# - Fae Fermata - 101
+# - Haunting Apparitions - 107
+soulbind=theotar_the_mad_duke,113:15/101:15/107:15
+
+default_actions=1
+
+head=confidants_favored_cap,id=183021,ilevel=226
+neck=charm_of_eternal_winter,id=183040,ilevel=226
+shoulder=shawl_of_the_penitent,id=183020,ilevel=233
+back=crest_of_the_legionnaire_general,id=183032,ilevel=233
+chest=robes_of_the_cursed_commando,id=182998,ilevel=233
+wrists=acolytes_velvet_bindings,id=183017,ilevel=226
+hands=impossibly_oversized_mitts,id=183022,ilevel=226
+waist=shadewarped_sash,id=183004,ilevel=226
+legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
+feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
+finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233
+finger2=ritualists_treasured_ring,id=183037,ilevel=226
+trinket1=vial_of_vampiric_essence,id=178810,ilevel=187
+trinket2=soulletting_ruby,id=178809,ilevel=187
+main_hand=sinbearers_absolution_staff,id=182418,ilevel=233
+
+profileset."Shadowflame_Prism"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Shadowflame_Prism_Conduit_15"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Shadowflame_Prism_Conduit_15"+=soulbind=theotar_the_mad_duke,113:15/101:15/114:15

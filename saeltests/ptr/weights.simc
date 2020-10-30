@@ -1,0 +1,170 @@
+# Bottomdps - Shadow - 2020-10-11 15:49 - us/Anasterian
+# SimC Addon 1.12.5
+# Requires SimulationCraft 820-01 or newer
+
+priest="Bottomdps"
+level="50"
+race="zandalari_troll"
+zandalari_loa="paku"
+region="us"
+server="anasterian"
+role="spell"
+professions="tailoring=175/jewelcrafting=175"
+talents="1113122"
+spec="shadow"
+
+azerite_essences="14:3/300573/27:3/300575/300576/12:4/300577/312927/32:3/312928"
+# azerite_essences_available=4:3/5:4/6:3/12:4/14:3/15:2/16:4/17:3/18:3/19:3/20:4/21:3/22:4/23:3/24:3/27:3/28:3/32:3/35:3/36:4/37:4
+
+head=",id=174118,bonus_id=4824/1517/4786/6511/4775,context=6,azerite_powers=403/582/31/83/13"
+neck=",id=158075,bonus_id=6316/4932/4933/1560,context=11,azerite_level=92"
+shoulder=",id=174117,bonus_id=4824/1517/4786/6512/4775,context=6,azerite_powers=403/582/18/204/13"
+back=",id=169223,bonus_id=6596/1472,context=11"
+chest=",id=172523,bonus_id=6388/6372/1542/4786/6510/4775,context=25,azerite_powers=403/236/30/204/13"
+wrist=",id=174122,bonus_id=4824/41/1517/4786/6513,context=6"
+hands=",id=159247,gem_id=168640,bonus_id=6536/4802/6578/6515/1543/4786,context=35"
+waist=",id=158346,gem_id=168640,bonus_id=6536/6578/1543/4786/6514,context=35"
+legs=",id=159269,gem_id=168640,bonus_id=6536/6578/1543/4786/6514,context=35"
+feet=",id=159311,gem_id=168640,bonus_id=6536/4802/6578/6513/1543/4786,context=35"
+finger1=",id=169157,enchant_id=6109,bonus_id=6536/6578/6513/1524/4786,context=35"
+finger2=",id=169159,enchant_id=6109,bonus_id=6536/6513/1514/4786,context=16"
+trinket1=",id=174103,bonus_id=4824/6513/1517/4786,context=6"
+trinket2=",id=174500,gem_id=168640,bonus_id=4824/1517/4786/6514,context=6"
+main_hand=",id=172196,enchant_id=5965,bonus_id=4824/6578/1517/4786/6513,context=6"
+off_hand=",id=172190,gem_id=168638,bonus_id=4824/41/1517/4786/6514,context=6"
+
+### Gear from Bags
+# Visage of Nightmarish Machinations (130)
+# head=,id=174118,bonus_id=4823/1502/4786/6508/4775,context=5,azerite_powers=403/582/31/83/13
+# Soulfuel Headdress (135)
+# head=,id=159279,bonus_id=5448/1543/4786/6511/4775,context=35,azerite_powers=236/405/462/14/13
+# Spaulders of Miasmic Mycelia (140)
+# shoulder=,id=174117,bonus_id=4824/1517/4786/6512,context=6,azerite_powers=
+# Void Ascendant's Mantle (135)
+# shoulder=,id=174120,bonus_id=4824/1517/4786/6512/4775,context=6,azerite_powers=404/582/38/15/13
+# Spaulders of Miasmic Mycelia (145)
+# shoulder=,id=174117,bonus_id=4824/1517/4786/6512/4775,context=6,azerite_powers=399/582/18/204/13
+# Robe of the Fallen Keeper (135)
+# chest=,id=174115,bonus_id=4824/1517/4786/6510/4775,context=6,azerite_powers=236/405/21/204/13
+# Robes of Unreality (135)
+# chest=,id=174119,bonus_id=4824/1517/4786/6510/4775,context=6,azerite_powers=227/582/18/83/13
+# Robe of the Fallen Keeper (135)
+# chest=,id=174115,bonus_id=4824/1517/4786/6510/4775,context=6,azerite_powers=404/582/21/204/13
+# Robes of Unreality (135)
+# chest=,id=174119,bonus_id=4824/1517/4786/6510/4775,context=6,azerite_powers=403/404/38/83/13
+# Void-Drenched Wristwraps (130)
+# wrist=,id=174122,bonus_id=4824/43/6515/1517/4786/6484/6457,context=6
+# Rixxa's Sweat-Wicking Cuffs (120)
+# wrist=,id=159240,bonus_id=6536/6578/6579/6548/6513/1533/4786,context=16
+# Silk Cuffs of the Skycap'n (130)
+# wrist=,id=159227,bonus_id=6536/6578/6579/6565/6515/1543/4786,context=35
+# Void-Drenched Wristwraps (130)
+# wrist=,id=174122,bonus_id=4824/6578/6579/6557/6515/1517/4786,context=6
+# Operator's Mitts (130)
+# hands=,id=168969,gem_id=168642,bonus_id=6536/4802/6578/6513/1524/4786/6516,context=35
+# Emberscale Gloves (130)
+# hands=,id=174125,bonus_id=4824/6516/6513/1517/4786,context=6
+# Eldritch Seaweave Gloves of the Fireflash (125)
+# hands=,id=170458,enchant_id=5937,gem_id=168641,bonus_id=1690/6516,context=13
+# Gloves of Staunched Wounds (120)
+# hands=,id=159253,bonus_id=6536/6516/6515/1533/4786,context=16
+# Silken Safety Harness (130)
+# waist=,id=169067,gem_id=168642,bonus_id=6536/4802/6578/6579/6559/6513/1524/4786,context=35
+# Vile Manipulator's Girdle (115)
+# waist=,id=173813,bonus_id=6412/6513/6578/6579/6475/6462/1509/4786,context=53
+# Ringmaster's Cummerbund (120)
+# waist=,id=168958,bonus_id=6536/6516/6513/1514/4786,context=16
+# Sailcloth Waistband (120)
+# waist=,id=158346,bonus_id=6536/6516/6515/1533/4786,context=16
+# Mana-Infused Sash (130)
+# waist=,id=174124,bonus_id=4824/6578/6579/6494/6613/6513/1517/4786,context=6
+# Wild Pyromancer's Trousers (120)
+# legs=,id=159277,bonus_id=6536/40/6516/6515/1533/4786,context=16
+# Vile Manipulator's Trousers (120)
+# legs=,id=173811,gem_id=168642,bonus_id=6412/4802/6515/6578/6579/6565/1514/4786,context=54
+# Corporeal Supplicant's Trousers (140)
+# legs=,id=174127,bonus_id=4824/41/6515/1517/4786/6479/6470,context=6
+# Royal Attendant's Trousers (120)
+# legs=,id=168988,bonus_id=6536/6516/6515/1514/4786,context=16
+# Leggings of the Drowned Lord (130)
+# legs=,id=159242,bonus_id=6536/6578/6579/6548/6515/1543/4786,context=35
+# Rowdy Reveler's Legwraps (120)
+# legs=,id=158350,bonus_id=6536/6578/6579/6549/6515/1533/4786,context=16
+# Royal Attendant's Trousers (120)
+# legs=,id=168988,bonus_id=6536/6516/6513/1514/4786,context=16
+# Norgannon's Foresight (59)
+# feet=,id=132455,bonus_id=3459/3630
+# Supplicant's Soiled Slippers (120)
+# feet=,id=169049,bonus_id=6536/6578/6513/1514/4786/6481/6462,context=16
+# Blood Warder's Moccasins (130)
+# feet=,id=159270,bonus_id=6536/6578/6579/6483/6453/6513/1543/4786,context=35
+# Vile Manipulator's Soles (125)
+# feet=,id=173495,gem_id=168642,bonus_id=6412/4802/6515/6578/6579/6477/6455/1519/4786,context=55
+# Boots of Wrought Shadow (130)
+# feet=,id=174128,bonus_id=4824/6578/6579/6552/6515/1517/4786,context=6
+# Loop of Pulsing Veins (130)
+# finger1=,id=159463,enchant_id=6110,bonus_id=6536/6578/6579/6564/6513/1543/4786,context=35
+# Rebooting Bit Band (120)
+# finger1=,id=168977,enchant_id=6109,bonus_id=6536/42/6516/6513/1514/4786,context=16
+# Thornwoven Band (130)
+# finger1=,id=162548,enchant_id=6111,bonus_id=6536/6578/6515/1543/4786/6479/6470,context=35
+# Ring of Cosmic Potential (140)
+# finger1=,id=174533,enchant_id=6111,bonus_id=4824/6578/6513/1517/4786/6479/6470,context=6
+# Void-Etched Band (130)
+# finger1=,id=174531,bonus_id=4824/6516/6515/1517/4786,context=6
+# Jade Ophidian Band (130)
+# finger1=,id=162544,bonus_id=6536/6578/6579/6541/6515/1543/4786,context=35
+# Ring of Collective Consciousness (130)
+# finger1=,id=174530,bonus_id=4824/1808/6516/6515/1517/4786,context=6
+# Rotcrusted Voodoo Doll (130)
+# trinket1=,id=159624,bonus_id=6536/6513/1543/4786,context=35
+# Humming Black Dragonscale (130)
+# trinket1=,id=174044,gem_id=168641,bonus_id=4824/1808/6515/1517/4786,context=6
+# Hadal's Nautilus (130)
+# trinket1=,id=159622,bonus_id=6536/6515/1543/4786,context=35
+# Pocket-Sized Computation Device (74)
+# trinket1=,id=167555,gem_id=168912/168749/168435,gem_bonus_id=1478:4786/1478:4786,bonus_id=1474,context=11
+# Aquipotent Nautilus (110)
+# trinket1=,id=169305,gem_id=168639,bonus_id=4800/1808/1500/5855/4783,context=6
+# Corrupted Gladiator's Badge (100)
+# trinket1=,id=172669,bonus_id=6387/6388/6513/1512/4786,context=25
+# Forbidden Obsidian Claw (130)
+# trinket1=,id=173944,bonus_id=4824/6515/1517/4786,context=6
+# Highborne Compendium of Storms (72)
+# trinket1=,id=169328,context=13
+# Psyche Shredder (130)
+# trinket1=,id=174060,gem_id=168639,bonus_id=4824/1808/6515/1517/4786,context=6
+# Azshara's Font of Power (85)
+# trinket1=,id=169314,gem_id=168639,bonus_id=4799/1808/1485/4786,context=5
+# Seabreeze (120)
+# main_hand=,id=158371,bonus_id=6536/6516/6515/1533/4786,context=16
+# Eyestalk of Il'gynoth (130)
+# main_hand=,id=172189,enchant_id=6112,bonus_id=4824/6548/6578/6579/1517/4786/6513,context=6
+# Staff of the Lightning Serpent (130)
+# main_hand=,id=159636,enchant_id=5964,gem_id=168640,bonus_id=6536/4802/6578/6579/6473/6470/6515/1543/4786,context=35
+# Gilded Serpent's Tooth (120)
+# main_hand=,id=159137,bonus_id=6536/6516/6513/1533/4786,context=16
+# Jagged Iris Sica (130)
+# main_hand=,id=159133,bonus_id=6536/6578/6579/6474/6455/6513/1543/4786,context=35
+
+name="Bottomdps"
+
+
+# Simulation Configs
+iterations="100000"
+fight_style="Patchwerk"
+desired_targets="1"
+max_time="300"
+calculate_scale_factors="1"
+scale_only="strength,intellect,agility,crit,mastery,vers,haste,weapon_dps,weapon_offhand_dps"
+override.bloodlust="1"
+override.arcane_intellect="1"
+override.power_word_fortitude="1"
+override.battle_shout="1"
+override.mystic_touch="1"
+override.chaos_brand="1"
+override.bleeding="1"
+report_details="1"
+single_actor_batch="1"
+optimize_expressions="1"
+target_error="0.05"

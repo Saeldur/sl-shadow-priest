@@ -1,0 +1,174 @@
+
+priest="Bottomdps"
+race="zandalari_troll"
+level="50"
+spec="shadow"
+role="spell"
+zandalari_loa="paku"
+azerite_essences="14:3/300573/27:3/300575/300576/12:4/300577/312927/32:3/312928"
+name="Bottomdps"
+
+
+### Combo 1
+# Visage of Nightmarish Machinations 145
+head=",id=174118,bonus_id=4824/1517/4786/6511/4775,azerite_powers=403/582/31/83/13"
+# Heart of Azeroth 146
+neck=",id=158075,bonus_id=6316/4932/4933/1560,azerite_level=92"
+# Spaulders of Miasmic Mycelia 145
+shoulder=",id=174117,bonus_id=4824/1517/4786/6512/4775,azerite_powers=403/582/18/204/13"
+# Ashjra'kamas, Shroud of Resolve 155
+back=",id=169223,bonus_id=6596/1472"
+# Corrupted Gladiator's Silk Robe 135
+chest=",id=172523,bonus_id=6388/6372/1542/4786/6510/4775,azerite_powers=403/236/30/204/13"
+# Void-Drenched Wristwraps 130
+wrist=",id=174122,bonus_id=4824/41/1517/4786/6476/6470/6513"
+# Handwraps of Oscillating Polarity 130
+hands=",id=159247,gem_id=168641,bonus_id=6536/4802/6578/6515/1543/4786/6482/6470"
+# Sailcloth Waistband 130
+waist=",id=158346,gem_id=168641,bonus_id=6536/6578/1543/4786/6482/6470/6514"
+# Darklight Legwarmers 130
+legs=",id=159269,gem_id=168641,bonus_id=6536/6578/1543/4786/6481/6462/6514"
+# Blessing Bearer's Waders 130
+feet=",id=159311,gem_id=168641,bonus_id=6536/4802/6578/6513/1543/4786/6483/6453"
+# Logic Loop of Division 130
+finger1=",id=169157,enchant_id=6109,bonus_id=6536/6578/6513/1524/4786/6476/6470"
+# Overclocking Bit Band 120
+finger2=",id=169159,enchant_id=6109,bonus_id=6536/6513/1514/4786/6482/6470"
+# Manifesto of Madness 140
+trinket1=",id=174103,bonus_id=4824/6513/1517/4786"
+# Vita-Charged Titanshard 130
+trinket2=",id=174500,gem_id=168641,bonus_id=4824/1517/4786/6514"
+# Vorzz Yoq'al 130
+main_hand=",id=172196,enchant_id=5965,bonus_id=4824/6578/1517/4786/6513/6476/6470"
+# Uhnish Vwah 130
+off_hand=",id=172190,gem_id=168638,bonus_id=4824/41/1517/4786/6476/6470/6514"
+talents="1113122"
+azerite_essences="14:3/12:4/27:3/32:3/300573/300575/300576/300577/312927/312928"
+
+### Combo 2
+# Visage of Nightmarish Machinations 145
+profileset."Combo 2"+="head=,id=174118,bonus_id=4824/1517/4786/6511/4775,azerite_powers=403/582/31/83/13"
+# Heart of Azeroth 146
+profileset."Combo 2"+="neck=,id=158075,bonus_id=6316/4932/4933/1560,azerite_level=92"
+# Spaulders of Miasmic Mycelia 145
+profileset."Combo 2"+="shoulder=,id=174117,bonus_id=4824/1517/4786/6512/4775,azerite_powers=403/582/18/204/13"
+# Ashjra'kamas, Shroud of Resolve 155
+profileset."Combo 2"+="back=,id=169223,bonus_id=6596/1472"
+# Corrupted Gladiator's Silk Robe 135
+profileset."Combo 2"+="chest=,id=172523,bonus_id=6388/6372/1542/4786/6510/4775,azerite_powers=403/236/30/204/13"
+# Void-Drenched Wristwraps 130
+profileset."Combo 2"+="wrist=,id=174122,bonus_id=4824/41/1517/4786/6476/6470/6513"
+# Handwraps of Oscillating Polarity 130
+profileset."Combo 2"+="hands=,id=159247,gem_id=168641,bonus_id=6536/4802/6578/6515/1543/4786/6482/6470"
+# Sailcloth Waistband 130
+profileset."Combo 2"+="waist=,id=158346,gem_id=168641,bonus_id=6536/6578/1543/4786/6482/6470/6514"
+# Darklight Legwarmers 130
+profileset."Combo 2"+="legs=,id=159269,gem_id=168641,bonus_id=6536/6578/1543/4786/6481/6462/6514"
+# Blessing Bearer's Waders 130
+profileset."Combo 2"+="feet=,id=159311,gem_id=168641,bonus_id=6536/4802/6578/6513/1543/4786/6483/6453"
+# Logic Loop of Division 130
+profileset."Combo 2"+="finger1=,id=169157,enchant_id=6109,bonus_id=6536/6578/6513/1524/4786/6476/6470"
+# Overclocking Bit Band 120
+profileset."Combo 2"+="finger2=,id=169159,enchant_id=6109,bonus_id=6536/6513/1514/4786/6482/6470"
+# Manifesto of Madness 140
+profileset."Combo 2"+="trinket1=,id=174103,bonus_id=4824/6513/1517/4786"
+# Vita-Charged Titanshard 130
+profileset."Combo 2"+="trinket2=,id=174500,gem_id=168641,bonus_id=4824/1517/4786/6514"
+# Vorzz Yoq'al 130
+profileset."Combo 2"+="main_hand=,id=172196,enchant_id=5965,bonus_id=4824/6578/1517/4786/6513/6476/6470"
+# Uhnish Vwah 130
+profileset."Combo 2"+="off_hand=,id=172190,gem_id=168638,bonus_id=4824/41/1517/4786/6476/6470/6514"
+profileset."Combo 2"+="talents=1113122"
+profileset."Combo 2"+="azerite_essences=14:3/12:4/27:3/35:3/300573/300575/300576/300577/312927/312928"
+
+### Combo 3
+# Visage of Nightmarish Machinations 145
+profileset."Combo 3"+="head=,id=174118,bonus_id=4824/1517/4786/6511/4775,azerite_powers=403/582/31/83/13"
+# Heart of Azeroth 146
+profileset."Combo 3"+="neck=,id=158075,bonus_id=6316/4932/4933/1560,azerite_level=92"
+# Spaulders of Miasmic Mycelia 145
+profileset."Combo 3"+="shoulder=,id=174117,bonus_id=4824/1517/4786/6512/4775,azerite_powers=403/582/18/204/13"
+# Ashjra'kamas, Shroud of Resolve 155
+profileset."Combo 3"+="back=,id=169223,bonus_id=6596/1472"
+# Corrupted Gladiator's Silk Robe 135
+profileset."Combo 3"+="chest=,id=172523,bonus_id=6388/6372/1542/4786/6510/4775,azerite_powers=403/236/30/204/13"
+# Void-Drenched Wristwraps 130
+profileset."Combo 3"+="wrist=,id=174122,bonus_id=4824/41/1517/4786/6476/6470/6513"
+# Handwraps of Oscillating Polarity 130
+profileset."Combo 3"+="hands=,id=159247,gem_id=168641,bonus_id=6536/4802/6578/6515/1543/4786/6482/6470"
+# Sailcloth Waistband 130
+profileset."Combo 3"+="waist=,id=158346,gem_id=168641,bonus_id=6536/6578/1543/4786/6482/6470/6514"
+# Darklight Legwarmers 130
+profileset."Combo 3"+="legs=,id=159269,gem_id=168641,bonus_id=6536/6578/1543/4786/6481/6462/6514"
+# Blessing Bearer's Waders 130
+profileset."Combo 3"+="feet=,id=159311,gem_id=168641,bonus_id=6536/4802/6578/6513/1543/4786/6483/6453"
+# Logic Loop of Division 130
+profileset."Combo 3"+="finger1=,id=169157,enchant_id=6109,bonus_id=6536/6578/6513/1524/4786/6476/6470"
+# Overclocking Bit Band 120
+profileset."Combo 3"+="finger2=,id=169159,enchant_id=6109,bonus_id=6536/6513/1514/4786/6482/6470"
+# Manifesto of Madness 140
+profileset."Combo 3"+="trinket1=,id=174103,bonus_id=4824/6513/1517/4786"
+# Vita-Charged Titanshard 130
+profileset."Combo 3"+="trinket2=,id=174500,gem_id=168641,bonus_id=4824/1517/4786/6514"
+# Vorzz Yoq'al 130
+profileset."Combo 3"+="main_hand=,id=172196,enchant_id=5965,bonus_id=4824/6578/1517/4786/6513/6476/6470"
+# Uhnish Vwah 130
+profileset."Combo 3"+="off_hand=,id=172190,gem_id=168638,bonus_id=4824/41/1517/4786/6476/6470/6514"
+profileset."Combo 3"+="talents=1113122"
+profileset."Combo 3"+="azerite_essences=14:3/27:3/32:3/35:3/300573/300575/300576/300577/312927/312928"
+
+### Combo 4
+# Visage of Nightmarish Machinations 145
+profileset."Combo 4"+="head=,id=174118,bonus_id=4824/1517/4786/6511/4775,azerite_powers=403/582/31/83/13"
+# Heart of Azeroth 146
+profileset."Combo 4"+="neck=,id=158075,bonus_id=6316/4932/4933/1560,azerite_level=92"
+# Spaulders of Miasmic Mycelia 145
+profileset."Combo 4"+="shoulder=,id=174117,bonus_id=4824/1517/4786/6512/4775,azerite_powers=403/582/18/204/13"
+# Ashjra'kamas, Shroud of Resolve 155
+profileset."Combo 4"+="back=,id=169223,bonus_id=6596/1472"
+# Corrupted Gladiator's Silk Robe 135
+profileset."Combo 4"+="chest=,id=172523,bonus_id=6388/6372/1542/4786/6510/4775,azerite_powers=403/236/30/204/13"
+# Void-Drenched Wristwraps 130
+profileset."Combo 4"+="wrist=,id=174122,bonus_id=4824/41/1517/4786/6476/6470/6513"
+# Handwraps of Oscillating Polarity 130
+profileset."Combo 4"+="hands=,id=159247,gem_id=168641,bonus_id=6536/4802/6578/6515/1543/4786/6482/6470"
+# Sailcloth Waistband 130
+profileset."Combo 4"+="waist=,id=158346,gem_id=168641,bonus_id=6536/6578/1543/4786/6482/6470/6514"
+# Darklight Legwarmers 130
+profileset."Combo 4"+="legs=,id=159269,gem_id=168641,bonus_id=6536/6578/1543/4786/6481/6462/6514"
+# Blessing Bearer's Waders 130
+profileset."Combo 4"+="feet=,id=159311,gem_id=168641,bonus_id=6536/4802/6578/6513/1543/4786/6483/6453"
+# Logic Loop of Division 130
+profileset."Combo 4"+="finger1=,id=169157,enchant_id=6109,bonus_id=6536/6578/6513/1524/4786/6476/6470"
+# Overclocking Bit Band 120
+profileset."Combo 4"+="finger2=,id=169159,enchant_id=6109,bonus_id=6536/6513/1514/4786/6482/6470"
+# Manifesto of Madness 140
+profileset."Combo 4"+="trinket1=,id=174103,bonus_id=4824/6513/1517/4786"
+# Vita-Charged Titanshard 130
+profileset."Combo 4"+="trinket2=,id=174500,gem_id=168641,bonus_id=4824/1517/4786/6514"
+# Vorzz Yoq'al 130
+profileset."Combo 4"+="main_hand=,id=172196,enchant_id=5965,bonus_id=4824/6578/1517/4786/6513/6476/6470"
+# Uhnish Vwah 130
+profileset."Combo 4"+="off_hand=,id=172190,gem_id=168638,bonus_id=4824/41/1517/4786/6476/6470/6514"
+profileset."Combo 4"+="talents=1113122"
+profileset."Combo 4"+="azerite_essences=14:3/12:4/32:3/35:3/300573/300575/300576/300577/312927/312928"
+
+
+# Simulation Configs
+iterations="100000"
+fight_style="Patchwerk"
+desired_targets="1"
+max_time="300"
+calculate_scale_factors="0"
+scale_only="strength,intellect,agility,crit,mastery,vers,haste,weapon_dps,weapon_offhand_dps"
+override.bloodlust="1"
+override.arcane_intellect="1"
+override.power_word_fortitude="1"
+override.battle_shout="1"
+override.mystic_touch="1"
+override.chaos_brand="1"
+override.bleeding="1"
+report_details="1"
+single_actor_batch="1"
+optimize_expressions="1"
+target_error="0.05"

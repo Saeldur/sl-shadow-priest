@@ -1,0 +1,227 @@
+# Jaervi - Shadow - 2020-10-13 01:28 - us/Anasterian
+# SimC Addon 1.12.5
+# Requires SimulationCraft 820-01 or newer
+
+priest="Jaervi"
+level=50
+race=goblin
+region=us
+server=anasterian
+role=spell
+professions=tailoring=175/jewelcrafting=175
+talents=3223122
+spec=shadow
+
+azerite_essences=14:4/300573/27:3/300575/300576/5:3/300577/312927/12:3/312928
+# azerite_essences_available=4:3/5:3/6:3/12:3/14:4/15:1/16:3/17:3/19:3/20:3/21:4/22:3/23:2/24:3/27:3/28:4/32:3/35:3/36:3/37:4
+
+head=,id=174116,bonus_id=4824/1517/4786/6511/4775,context=6,azerite_powers=405/403/30/15/13
+neck=,id=158075,bonus_id=6316/4932/4933/1560,context=11,azerite_level=92
+shoulder=,id=174117,bonus_id=4824/1517/4786/6512/4775,context=6,azerite_powers=403/582/18/204/13
+back=,id=169223,bonus_id=6599/1472,context=11
+chest=,id=168337,bonus_id=4824/1500/4786/6269/4775,context=6,azerite_powers=405/236/30/15/13
+wrist=,id=174122,gem_id=168641,bonus_id=4824/1517/4786/6482/6470/6514,context=6
+hands=,id=174125,gem_id=168639,bonus_id=4824/1808/6513/1517/4786/6482/6470,context=6
+waist=,id=173813,gem_id=168639,bonus_id=6412/6578/1514/4786/6514/6482/6470,context=54
+legs=,id=174121,gem_id=168639,bonus_id=4824/42/1517/4786/6514/6476/6470,context=6
+feet=,id=173478,bonus_id=6412/6515/6578/1514/4786/6476/6470,context=54
+finger1=,id=169157,enchant_id=6108,gem_id=168639,bonus_id=6536/6578/1524/4786/6514/6482/6470,context=35
+finger2=,id=169159,enchant_id=6108,gem_id=168641,bonus_id=6536/1514/4786/6514/6476/6470,context=16
+trinket1=,id=169314,gem_id=168639,bonus_id=4800/1808/1500/4786,context=6
+trinket2=,id=174103,bonus_id=4824/6515/1517/4786,context=6
+main_hand=,id=159652,enchant_id=5963,gem_id=168639,bonus_id=6536/6578/1543/4786/6514/6482/6470,context=35
+off_hand=,id=159668,gem_id=168639,bonus_id=6536/6578/1543/4786/6514/6476/6470,context=35
+
+### Gear from Bags
+#
+# Duskhaven Top Hat (60)
+# head=,id=166844
+#
+# Cowl of Unspeakable Horrors (135)
+# head=,id=174116,bonus_id=4824/1517/4786/6511/4775,context=6,azerite_powers=227/582/30/15/13
+#
+# Handmaiden's Cowl of Sacrifice (105)
+# head=,id=168336,bonus_id=4824/1500/4786/6270/4775,context=6,azerite_powers=403/405/30/537/13
+#
+# Mask of the Long Night (1)
+# head=,id=172952,context=9
+#
+# Visage of Nightmarish Machinations (145)
+# head=,id=174118,bonus_id=4824/1517/4786/6511/4775,context=6,azerite_powers=403/582/31/472/13
+#
+# Void Ascendant's Mantle (135)
+# shoulder=,id=174120,bonus_id=4824/1517/4786/6512/4775,context=6,azerite_powers=404/582/38/15/13
+#
+# Cloak of Coordination (29)
+# back=,id=65274,context=14
+#
+# Inmate's Straight Robe (135)
+# chest=,id=159268,bonus_id=5448/1543/4786/6510/4775,context=35,azerite_powers=403/236/22/83/13
+#
+# Robe of the Fallen Keeper (135)
+# chest=,id=174115,bonus_id=4824/1517/4786/6510/4775,context=6,azerite_powers=404/582/19/204/13
+#
+# Corrupted Gladiator's Silk Robe (135)
+# chest=,id=172523,bonus_id=6388/6372/1542/4786/6510/4775,context=56,azerite_powers=403/236/30/15/13
+#
+# Renowned Guild Tabard (1)
+# tabard=,id=69210,context=14
+#
+# Wraps of Everliving Fealty (120)
+# wrist=,id=158348,bonus_id=6536/6516/6513/1533/4786,context=16
+#
+# Silk Cuffs of the Skycap'n (130)
+# wrist=,id=159227,bonus_id=6536/6578/6579/6483/6453/6515/1543/4786,context=35
+#
+# Vile Manipulator's Cuffs (100)
+# wrist=,id=173471,bonus_id=6412/4803/6515/6578/6579/6480/6455/1494/4786,context=37
+#
+# Cuffs of Grim Conjuration (130)
+# wrist=,id=174129,bonus_id=4824/6516/6515/1517/4786,context=6
+#
+# Vile Manipulator's Armwraps (120)
+# wrist=,id=173479,bonus_id=6412/6515/6578/6579/6483/6453/1514/4786,context=54
+#
+# Vile Manipulator's Gloves (115)
+# hands=,id=173463,bonus_id=6412/43/6513/6578/6579/6562/1509/4786,context=53
+#
+# Vile Manipulator's Grips (120)
+# hands=,id=173491,bonus_id=6412/6513/6578/6579/6539/1514/4786,context=54
+#
+# Grips of Occult Reminiscence (130)
+# hands=,id=174130,bonus_id=4824/6516/6513/1517/4786,context=6
+#
+# Mine Rat's Handwarmers (130)
+# hands=,id=159231,bonus_id=6536/6578/6579/6537/6513/1543/4786,context=35
+#
+# Vile Manipulator's Handwraps (125)
+# hands=,id=173432,bonus_id=6412/6513/6578/6579/6477/6455/1519/4786,context=55
+#
+# Eldritch Seaweave Gloves of the Fireflash (125)
+# hands=,id=170458,gem_id=168639,bonus_id=1691/6481/6462,context=13
+#
+# Vile Manipulator's Girdle (125)
+# waist=,id=173813,bonus_id=6412/6515/6578/6579/6438/6462/1519/4786,context=55
+#
+# Vile Manipulator's Cinch (115)
+# waist=,id=173436,bonus_id=6412/6513/6578/6579/6560/1509/4786,context=53
+#
+# Vile Manipulator's Girdle (115)
+# waist=,id=173813,bonus_id=6412/6515/6578/6579/6537/1509/4786,context=53
+#
+# Ringmaster's Cummerbund (130)
+# waist=,id=168958,bonus_id=6536/6578/6513/1524/4786/6516,context=35
+#
+# Vile Manipulator's Cinch (120)
+# waist=,id=173436,bonus_id=6412/6513/6578/6579/6484/6457/1514/4786,context=54
+#
+# Vile Manipulator's Cinch (125)
+# waist=,id=173436,bonus_id=6412/6515/6578/6579/6537/1519/4786,context=55
+#
+# Vile Manipulator's Trousers (125)
+# legs=,id=173811,bonus_id=6412/6513/6578/6579/6476/6470/1519/4786,context=55
+#
+# Chum-Coated Leggings (130)
+# legs=,id=158302,bonus_id=6536/41/6578/6579/6472/6462/6515/1543/4786,context=35
+#
+# Vile Manipulator's Leggings (100)
+# legs=,id=173434,bonus_id=6412/4803/42/6515/6578/6579/6480/6455/1494/4786,context=29
+#
+# Vile Manipulator's Pants (80)
+# legs=,id=173483,bonus_id=6412/4803/6515/6578/6579/6541/1474/4786,context=30
+#
+# Vile Manipulator's Leggings (105)
+# legs=,id=173434,bonus_id=6412/4803/6513/6578/6579/6481/6462/1499/4786,context=42
+#
+# Eldritch Seaweave Breeches of the Fireflash (125)
+# legs=,id=170461,gem_id=168639,bonus_id=1695/6516,context=13
+#
+# Corporeal Supplicant's Trousers (140)
+# legs=,id=174127,bonus_id=4824/6516/6515/1517/4786,context=6
+#
+# Vile Manipulator's Soles (110)
+# feet=,id=173495,bonus_id=6412/4803/6513/6578/6579/6476/6470/1504/4786,context=43
+#
+# Psychic's Subtle Slippers (115)
+# feet=,id=174123,bonus_id=4823/6578/6579/6541/6515/1502/4786,context=5
+#
+# Psychic's Subtle Slippers (130)
+# feet=,id=174123,bonus_id=4824/6516/6515/1517/4786,context=6
+#
+# Blood Warder's Moccasins (130)
+# feet=,id=159270,bonus_id=6536/6578/6579/6550/6513/1543/4786,context=35
+#
+# Vile Manipulator's Slippers (110)
+# feet=,id=173515,bonus_id=6412/4803/6515/6578/6579/6560/1504/4786,context=43
+#
+# Devilsaur Worshiper's Sandals (130)
+# feet=,id=158303,bonus_id=6536/6578/6579/6539/6515/1543/4786,context=35
+#
+# Ring of Collective Consciousness (130)
+# finger1=,id=174530,enchant_id=6108,gem_id=168639,bonus_id=4824/1808/6513/1517/4786/6476/6470,context=6
+#
+# Lurking Schemer's Band (115)
+# finger1=,id=175008,enchant_id=6108,gem_id=168639,bonus_id=4823/6516/6515/1502/4786,context=5
+#
+# Ring of Collective Consciousness (130)
+# finger1=,id=174530,enchant_id=6109,bonus_id=4824/6516/6515/1517/4786,context=6
+#
+# Ring of Cosmic Potential (140)
+# finger1=,id=174533,bonus_id=4824/1808/6516/6515/1517/4786,context=6
+#
+# Seal of Questionable Loyalties (130)
+# finger1=,id=158314,enchant_id=6109,bonus_id=6536/6578/6579/6554/6515/1543/4786,context=35
+#
+# Eternal Kraken's Eye Loop of the Fireflash (78)
+# finger1=,id=166524,enchant_id=6108,bonus_id=1756
+#
+# Ring of Collective Consciousness (130)
+# finger1=,id=174530,enchant_id=6109,bonus_id=4824/6578/6579/6559/6515/1517/4786,context=6
+#
+# Thornwoven Band (120)
+# finger1=,id=162548,enchant_id=6111,bonus_id=6536/6516/6515/1533/4786,context=16
+#
+# Charged Sandstone Band (130)
+# finger1=,id=158366,bonus_id=6536/6578/6579/6562/6515/1543/4786,context=35
+#
+# Corrupted Gladiator's Spite (105)
+# trinket1=,id=174472,bonus_id=6366/6388/6513/1517/4786,context=39
+#
+# Vita-Charged Titanshard (130)
+# trinket1=,id=174500,gem_id=168639,bonus_id=4824/1808/6513/1517/4786,context=6
+#
+# Shiver Venom Relic (105)
+# trinket1=,id=168905,bonus_id=4800/1500/5850/4783,context=6
+#
+# Psyche Shredder (130)
+# trinket1=,id=174060,gem_id=168639,bonus_id=4824/1808/6513/1517/4786,context=6
+#
+# Corrupted Gladiator's Badge (120)
+# trinket1=,id=172669,bonus_id=6377/6388/6513/1532/4786,context=56
+#
+# Pocket-Sized Computation Device (74)
+# trinket1=,id=167555,gem_id=167672/168749,gem_bonus_id=0/1472:4786,bonus_id=1474,context=11
+#
+# Rotcrusted Voodoo Doll (130)
+# trinket1=,id=159624,bonus_id=6536/4802/6515/1543/4786,context=35
+#
+# Leviathan's Lure (110)
+# trinket1=,id=169304,bonus_id=4800/1500/5855/4783,context=6
+#
+# Forbidden Obsidian Claw (130)
+# trinket1=,id=173944,bonus_id=4824/6515/1517/4786,context=6
+#
+# Humming Black Dragonscale (130)
+# trinket1=,id=174044,gem_id=168639,bonus_id=4824/1808/40/6513/1517/4786,context=6
+#
+# Vorzz Yoq'al (130)
+# main_hand=,id=172196,enchant_id=5963,gem_id=168639,bonus_id=4824/1808/6541/6578/6579/6515/1517/4786,context=6
+#
+# Anu-Azshara, Staff of the Eternal (100)
+# main_hand=,id=168275,enchant_id=5965,bonus_id=4800/1500/4786,context=6
+#
+# Bloodstained Ritual Athame (130)
+# main_hand=,id=172201,enchant_id=5965,bonus_id=4824/40/6516/6515/1517/4786,context=6
+#
+# Zealous Ritualist's Reverie (115)
+# off_hand=,id=175009,bonus_id=4823/6578/6579/6544/6515/1502/4786,context=5

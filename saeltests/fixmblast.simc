@@ -1,0 +1,110 @@
+iterations=50000
+single_actor_batch=1
+max_time=300
+desired_targets="1"
+optimal_raid=0
+
+priest="Base"
+
+level=60
+role=spell
+position=back
+spec=shadow
+covenant=night_fae
+talents=1123121
+
+#,bonus_id=6982
+head=confidants_favored_cap,id=183021,ilevel=226
+neck=charm_of_eternal_winter,id=183040,ilevel=226
+shoulder=shawl_of_the_penitent,id=183020,ilevel=233
+back=crest_of_the_legionnaire_general,id=183032,ilevel=233
+chest=robes_of_the_cursed_commando,id=182998,ilevel=233
+wrists=acolytes_velvet_bindings,id=183017,ilevel=226
+hands=impossibly_oversized_mitts,id=183022,ilevel=226
+waist=shadewarped_sash,id=183004,ilevel=226
+legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
+feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
+finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233
+finger2=ritualists_treasured_ring,id=183037,ilevel=226
+trinket1=vial_of_vampiric_essence,id=178810,ilevel=187
+trinket2=soulletting_ruby,id=178809,ilevel=187
+main_hand=sinbearers_absolution_staff,id=182418,ilevel=233
+
+soulbind=theotar_the_mad_duke,113:15/101:15/114:15
+
+default_actions=1
+
+priest="BasicAPL"
+
+level=60
+role=spell
+position=back
+spec=shadow
+covenant=night_fae
+talents=1123121
+
+#,bonus_id=6982
+head=confidants_favored_cap,id=183021,ilevel=226
+neck=charm_of_eternal_winter,id=183040,ilevel=226
+shoulder=shawl_of_the_penitent,id=183020,ilevel=233
+back=crest_of_the_legionnaire_general,id=183032,ilevel=233
+chest=robes_of_the_cursed_commando,id=182998,ilevel=233
+wrists=acolytes_velvet_bindings,id=183017,ilevel=226
+hands=impossibly_oversized_mitts,id=183022,ilevel=226
+waist=shadewarped_sash,id=183004,ilevel=226
+legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
+feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
+finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233
+finger2=ritualists_treasured_ring,id=183037,ilevel=226
+trinket1=vial_of_vampiric_essence,id=178810,ilevel=187
+trinket2=soulletting_ruby,id=178809,ilevel=187
+main_hand=sinbearers_absolution_staff,id=182418,ilevel=233
+
+soulbind=theotar_the_mad_duke,113:15/101:15/114:15
+
+default_actions=0
+
+potion=potion_of_spectral_intellect
+flask=spectral_flask_of_power
+food=crawler_ravioli_with_apple_sauce
+
+  actions.precombat=flask
+  actions.precombat+=/food
+  actions.precombat+=/augmentation
+  actions.precombat+=/snapshot_stats
+  actions.precombat+=/potion
+  actions.precombat+=/shadowform,if=!buff.shadowform.up
+  actions.precombat+=/use_item,name=azsharas_font_of_power
+  actions.precombat+=/variable,name=mind_sear_cutoff,op=set,value=1
+  actions.precombat+=/mind_blast
+
+  actions=call_action_list,name=cwc
+  actions+=/call_action_list,name=main
+  actions.cwc=mind_blast,only_cwc=1
+
+  actions.cds=power_infusion,if=buff.voidform.up
+  actions+=/variable,name=dots_up,op=set,value=dot.shadow_word_pain.ticking&dot.vampiric_touch.ticking
+  actions+=/variable,name=all_dots_up,op=set,value=dot.shadow_word_pain.ticking&dot.vampiric_touch.ticking&dot.devouring_plague.ticking
+  actions+=/variable,name=searing_nightmare_cutoff,op=set,value=spell_targets.mind_sear>2
+  actions.cds+=/Fae_Guardians
+  actions.cds+=/use_items
+
+
+  #actions.main=void_eruption,if=cooldown.power_infusion.up&insanity>=40&(!talent.legacy_of_the_void.enabled|(talent.legacy_of_the_void.enabled&dot.devouring_plague.ticking))
+  #actions.main+=/shadow_word_pain,if=buff.fae_guardians.up&!debuff.wrathful_faerie.up
+  #actions.main+=/void_bolt,if=!dot.devouring_plague.refreshable
+  #actions.main+=/call_action_list,name=cds
+  #actions.main+=/damnation,target_if=!variable.all_dots_up
+  #actions.main+=/devouring_plague,if=talent.legacy_of_the_void.enabled&cooldown.void_eruption.up&insanity=100
+  #actions.main+=/devouring_plague,target_if=(refreshable|insanity>75)&!cooldown.power_infusion.up&(!talent.searing_nightmare.enabled|(talent.searing_nightmare.enabled&!variable.searing_nightmare_cutoff))&(!talent.legacy_of_the_void.enabled|(talent.legacy_of_the_void.enabled&buff.voidform.down))
+  #actions.main+=/shadow_word_death,target_if=target.health.pct<20|(pet.fiend.active&runeforge.shadowflame_prism.equipped)
+  #actions.main+=/surrender_to_madness,target_if=target.time_to_die<25&target.time_to_die>0&buff.voidform.down
+  actions.main+=/mindbender
+  actions.main+=/mind_flay,if=buff.dark_thoughts.up&variable.dots_up,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
+  actions.main+=/mind_blast,if=variable.dots_up&raid_event.movement.in>cast_time+0.5&spell_targets.mind_sear<4
+  actions.main+=/vampiric_touch,target_if=refreshable&target.time_to_die>6|(talent.misery.enabled&dot.shadow_word_pain.refreshable)|buff.unfurling_darkness.up
+  actions.main+=/shadow_word_pain,if=refreshable&target.time_to_die>4&!talent.misery.enabled&talent.psychic_link.enabled&spell_targets.mind_sear>2&!talent.searing_nightmare.enabled
+  actions.main+=/shadow_word_pain,target_if=refreshable&target.time_to_die>4&!talent.misery.enabled&(!talent.psychic_link.enabled|(talent.psychic_link.enabled&spell_targets.mind_sear<=2))&!talent.searing_nightmare.enabled&!talent.searing_nightmare.enabled
+  actions.main+=/mind_sear,target_if=spell_targets.mind_sear>variable.mind_sear_cutoff,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
+  actions.main+=/mind_flay,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
+  actions.main+=/shadow_word_pain
